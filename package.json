@@ -14,14 +14,15 @@
   "contributes": {
     "commands": [
       {
-        "command": "insert-doc-section.insertDoc",
-        "title": "Insert Doc Section"
+        "command": "extension.insertDocSection",
+        "title": "Insert Documentation Section"
       }
     ],
     "languages": [
       {
         "id": "typescript",
-        "configuration": "./language-configuration.json"
+        "extensions": [".ts"],
+        "aliases": ["TypeScript", "typescript"]
       }
     ],
     "snippets": [
