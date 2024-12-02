@@ -3,6 +3,7 @@
   "displayName": "Insert Doc Section",
   "description": "ketik //@ untuk memberikan judul atau batas pada component sehingga code bisa lebih rapih dan mudah dibaca",
   "version": "0.0.1",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.95.0"
   },

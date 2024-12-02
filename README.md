@@ -11,7 +11,7 @@
 
 - **Autocomplete untuk Dokumentasi**:
   
-  Ketik `//@` untuk memunculkan pilihan dokumentasi.
+  Ketik `//` untuk memunculkan pilihan dokumentasi.
 
 - **Pilihan Dokumentasi**:
   
@@ -61,7 +61,7 @@ Pastikan Anda sudah menginstal **Visual Studio Code** di komputer Anda.
 Contoh penggunaan:
 
 ```typescript
-//@ Method
+//Method
 
 ```
 
@@ -79,7 +79,6 @@ Hasil otomatis:
 
 ### Konfigurasi
 
-- **File Konfigurasi Bahasa**: `language-configuration.json`
 - **Entry Point Extension**: `src/extension.ts`
 
 ### Struktur Folder
@@ -99,7 +98,7 @@ Hasil otomatis:
 1. Jalankan perintah berikut untuk memulai mode debug di VS Code:
    - Tekan `F5` untuk menjalankan extension dalam mode pengembangan.
 
-2. Setelah extension berjalan, Anda dapat mengetik `//@` pada file TypeScript dan mencoba fitur autocomplete.
+2. Setelah extension berjalan, Anda dapat mengetik `//` pada file TypeScript dan mencoba fitur autocomplete.
 
 ### Menambahkan Fitur Baru
 
