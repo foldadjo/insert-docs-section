@@ -1,0 +1,11 @@
+{
+    "Angular Doc Method": {
+        "prefix": "//@",
+        "body": [
+            "//======================================================",
+            "// @ ${1|Method,Input,Output,LifecycleHook,Property|}",
+            "//======================================================"
+        ],
+        "description": "Insert Angular Doc Section"
+    }
+}
