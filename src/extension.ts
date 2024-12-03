@@ -10,14 +10,14 @@ export function activate(context: vscode.ExtensionContext) {
             const position = selection.active;
 
             const docSection = `// -----------------------------------------------------------------------------------------------------\n` +
-                `// @ \${1|Method,Input,Output,LifecycleHook,Property,Constructor|}\n` +
+                `// @ \${1|Method,Input,Output,LifecycleHook,Property,Constructor,Public Methods,Private Methods|}\n` +
                 `// -----------------------------------------------------------------------------------------------------\n`;
 
             editor.edit(editBuilder => {
                 editBuilder.insert(position, docSection);
             }).then(() => {
                 // Once inserted, move the cursor to the placeholder for user input.
-                const newPosition = new vscode.Position(position.line + 1, position.character + 5); // Move cursor slightly after "// @"
+                const newPosition = new vscode.Position(position.line + 1, position.character + 5); // Move cursor slightly after "//"
                 editor.selection = new vscode.Selection(newPosition, newPosition);
                 vscode.commands.executeCommand('editor.action.triggerSuggest');  // Trigger suggestion automatically after inserting the section.
             });
