@@ -64,5 +64,6 @@
     "type": "git",
     "url": "https://github.com/foldadjo/insert-docs-section.git"
   },
+  "publisher": "stroomer",
   "license": "MIT"
 }
